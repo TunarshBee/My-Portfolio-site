@@ -24,13 +24,19 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://sanbellopunchtest.netlify.app/" target="_blank" rel="noopener noreferrer">
           <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://sea-food-store.vercel.app/" target="_blank" rel="noopener noreferrer">
           <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
+          <a href="https://sanbellomoviecompare.netlify.app/" target="_blank" rel="noopener noreferrer">
           <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://sanbeltubeproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">
