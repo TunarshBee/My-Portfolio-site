@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -26,11 +26,12 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
+        <span>
+          The scope of my work is a large part of the websites development:<br/>
+          parallax scrolling, coding layouts, mobile, single page apps, animation,<br/>
+           CSS/JS and other work based on HTML, CSS, React <br/>
+          Js and lots more.
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>

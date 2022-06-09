@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -24,16 +24,12 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+          <span>
+            I'm a fullstack and a web designer, an expert with more than 5 years <br />
+            of experience in computer operating and more than 3 years of<br />
+            experience in web development/designing using some technologies<br />
+            like; Html, Css, React js, Jquery and lots more.
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -47,10 +43,10 @@ const Works = () => {
       </div>
       <div className="w-right">
         <motion.div
-          initial={{ rotate: 45 }}
+          initial={{ rotate: 360 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
+          transition={{ duration: 20, type: "spring", stiffness: 1 }}
           className="w-mainCircle"
         >
           <div className="w-secCircle">

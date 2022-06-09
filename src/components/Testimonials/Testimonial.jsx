@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "popular personalised website for my business. I have used it for a number of years and it has been a great success.",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "their digital marketing paw print stamps @ and generate real. Order yours now and get 10% off! Offer endspopular personalised their digital marketing",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "to focus my fashion business. career on veganism, accepting the entire lifestyle and all its benefits.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "After seeing the results Love this beautiful for any organisation through eating, I decided testimonial about our looking to outsource.",
     },
   ];
 

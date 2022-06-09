@@ -6,7 +6,7 @@ import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 
 const Footer = () => {
-  let date =  new Date().getFullYear() 
+  let date = new Date().getFullYear();
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
@@ -18,11 +18,17 @@ const Footer = () => {
           <span>rafiubello4real@gmail.com</span>
         </a>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+          <a href="https://www.instagram.com/rafiubello1/?hl=en">
+            <Insta color="white" size={"3rem"} />
+          </a>
+          <a href="https://web.facebook.com/sanusi.bello.7509/">
+            <Facebook color="white" size={"3rem"} />
+          </a>
+          <a href="https://www.github.com/TunarshBee">
+            <Gitub color="white" size={"3rem"} />
+          </a>
         </div>
-        <span>Copyright &copy; {date} Sanusi  </span>
+        <span>Copyright &copy; {date} Sanusi </span>
       </div>
     </div>
   );
