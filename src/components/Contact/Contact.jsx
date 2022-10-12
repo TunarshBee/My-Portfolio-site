@@ -8,7 +8,7 @@ const Contact = () => {
   const form = useRef();
   const [done, setDone] = useState(false);
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs
       .sendForm(
@@ -64,11 +64,12 @@ const Contact = () => {
           <label htmlFor="message">Your Message</label>
           <textarea name="message" className="user" placeholder="Message" />
           <a
-            href="http://192.168.80.129"
+            href="http://192.168.80.129/"
             target="_blank"
-            rel="noopener noreferrer"
+            type="submit"
+            className="button"
           >
-            <input type="submit" value="Send" className="button" />
+            Send
           </a>
           <span>{done && "Thanks for Contacting me"}</span>
           <div

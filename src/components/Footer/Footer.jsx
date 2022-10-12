@@ -9,7 +9,7 @@ const Footer = () => {
   let date = new Date().getFullYear();
   return (
     <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
+      <img src={Wave} alt="" style={{ width: "100%"}} />
       <div className="f-content">
         <a
           href="mailto:rafiubello4real@gmail.com"
