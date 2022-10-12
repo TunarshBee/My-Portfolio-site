@@ -6,7 +6,7 @@ const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -35,9 +35,9 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Get in Touch</span>
           <span>Contact me</span>
-          
+
           <div
             className="blur s-blur1"
             style={{ background: "#ff1f1f92" }}
@@ -48,12 +48,28 @@ const Contact = () => {
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="user_name">Your Name</label>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input
+            type="text"
+            name="user_name"
+            className="user"
+            placeholder="Name"
+          />
           <label htmlFor="user_email">Your Email</label>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <input
+            type="email"
+            name="user_email"
+            className="user"
+            placeholder="Email"
+          />
           <label htmlFor="message">Your Message</label>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          <textarea name="message" className="user" placeholder="Message" />
+          <a
+            href="http://192.168.35.44"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <input type="submit" value="Send" className="button" />
+          </a>
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
