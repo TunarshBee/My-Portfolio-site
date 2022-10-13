@@ -64,7 +64,7 @@ const Contact = () => {
           <label htmlFor="message">Your Message</label>
           <textarea name="message" className="user" placeholder="Message" />
           <a
-            href="http://192.168.80.129/"
+            href="#"
             target="_blank"
             type="submit"
             className="button"
