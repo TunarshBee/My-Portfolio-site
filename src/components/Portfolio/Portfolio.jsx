@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Edward from "../../img/edward.png";
+import Imexta from "../../img/imextaFrontend.png";
+import Punch from "../../img/punchTest.png";
+import MovieApp from "../../img/movieCompare.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -24,23 +24,39 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href="https://sanbellopunchtest.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <img src={Sidebar} alt="" />
+          <a
+            href="https://edwardassessment.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Edward} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://sea-food-store.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src={Ecommerce} alt="" />
+          <a
+            href="https://imexta-frontend.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Imexta} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://sanbellomoviecompare.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <img src={MusicApp} alt="" />
+          <a
+            href="https://sanbellomoviecompare.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={MovieApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://sanbeltubeproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-          <img src={HOC} alt="" />
+          <a
+            href="https://sanbellopunchtest.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Punch} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>

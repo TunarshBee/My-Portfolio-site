@@ -4,7 +4,7 @@ import "./Experience.css";
 const Experience = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  const date = new Date().getFullYear() - 2015;
+  const date = new Date().getFullYear() - 2017;
 
   return (
     <div className="experience" id="experience">
