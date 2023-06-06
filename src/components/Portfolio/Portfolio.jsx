@@ -4,6 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Edward from "../../img/edward.png";
 import Imexta from "../../img/imextaFrontend.png";
+import Starwars from "../../img/starwars.png";
+import Weather from "../../img/weatherApp.png";
+import Pagination from "../../img/pagination.png";
+import TODO from "../../img/to-do.png";
 import Punch from "../../img/punchTest.png";
 import MovieApp from "../../img/movieCompare.png";
 import { themeContext } from "../../Context";
@@ -25,20 +29,11 @@ const Portfolio = () => {
       >
         <SwiperSlide>
           <a
-            href="https://edwardassessment.vercel.app/"
+            href="https://sanbello-smtech.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Edward} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a
-            href="https://imexta-frontend.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Imexta} alt="" />
+            <img src={Starwars} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -52,11 +47,56 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a
+            href="https://yoke-marketing.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Weather} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://edwardassessment.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Edward} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
             href="https://sanbellopunchtest.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Punch} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://imexta-frontend.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Imexta} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://pagination-henna-seven.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Pagination} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://sanbellotodoapp.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={TODO} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>
